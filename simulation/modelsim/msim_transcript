@@ -1,0 +1,2418 @@
+# Reading F:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RISCVCPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/RISCVCPU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/RISCVALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/RISCVALU.sv 
+# -- Compiling module RISCVALU
+# 
+# Top level modules:
+# 	RISCVALU
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/registerfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/registerfile.sv 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/Mult4to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/Mult4to1.sv 
+# -- Compiling module Mult4to1
+# 
+# Top level modules:
+# 	Mult4to1
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/Mult2to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/Mult2to1.sv 
+# -- Compiling module Mult2to1
+# 
+# Top level modules:
+# 	Mult2to1
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:06 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 20:01:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/Datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:07 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:01:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/DataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:07 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 20:01:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/Controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:07 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/Controller.sv 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 20:01:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/ALUControl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:07 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 20:01:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/TEST_LAST {E:/TEST_LAST/pcreg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:07 on Jul 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/TEST_LAST" E:/TEST_LAST/pcreg.sv 
+# -- Compiling module PCreg
+# 
+# Top level modules:
+# 	PCreg
+# End time: 20:01:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work E:/TEST_LAST/ALUControl.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:16 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 20:01:16 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/Controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:16 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Controller.sv 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 20:01:16 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/controllertest.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:16 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/controllertest.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/flopenr.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/flopr.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/Mult2to1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Mult2to1.sv 
+# -- Compiling module Mult2to1
+# 
+# Top level modules:
+# 	Mult2to1
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/Mult4to1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Mult4to1.sv 
+# -- Compiling module Mult4to1
+# 
+# Top level modules:
+# 	Mult4to1
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/PCreg.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/PCreg.sv 
+# -- Compiling module PCreg
+# 
+# Top level modules:
+# 	PCreg
+# End time: 20:01:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/registerfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/registerfile.sv 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 20:01:18 on Jul 14,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVALU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:18 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVALU.sv 
+# -- Compiling module RISCVALU
+# 
+# Top level modules:
+# 	RISCVALU
+# End time: 20:01:18 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:18 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 20:01:18 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:18 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:01:18 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:01:27 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(91): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:14 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:05:14 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:31 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 20:05:31 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:12:59 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 20:12:59 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:03 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:13:03 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/PCreg.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:36 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/PCreg.sv 
+# -- Compiling module PCreg
+# 
+# Top level modules:
+# 	PCreg
+# End time: 20:13:36 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 20:13:52 on Jul 14,2020, Elapsed time: 0:12:25
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 20:13:52 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(91): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+vlog -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:33:04 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 20:33:05 on Jul 14,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:33:06 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:33:06 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/PCreg.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:33:16 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/PCreg.sv 
+# -- Compiling module PCreg
+# 
+# Top level modules:
+# 	PCreg
+# End time: 20:33:16 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# ** Error: E:/TEST_LAST/Datapath.sv(15): In, out, or inout does not appear in port list: PC_Temp.
+# End time: 20:35:50 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:36:17 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:36:17 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 20:36:22 on Jul 14,2020, Elapsed time: 0:22:30
+# Errors: 2, Warnings: 10
+# vsim work.testbench 
+# Start time: 20:36:22 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(92): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:38:59 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:38:59 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:02 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:39:02 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 20:39:07 on Jul 14,2020, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 20:39:07 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(92): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:53 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:41:53 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 20:42:01 on Jul 14,2020, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 20:42:01 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(92): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:48:25 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 20:48:25 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 20:48:30 on Jul 14,2020, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 20:48:30 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult2to1
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:05:47 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:05:47 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 21:05:52 on Jul 14,2020, Elapsed time: 0:17:22
+# Errors: 0, Warnings: 16
+# vsim work.testbench 
+# Start time: 21:05:52 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:21:44 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:21:44 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 21:21:49 on Jul 14,2020, Elapsed time: 0:15:57
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 21:21:49 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(44): [PCDPC] - Port size (1) does not match connection size (32) for port 's'. The port definition is at: E:/TEST_LAST/Mult2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/memMux File: E:/TEST_LAST/Mult2to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/lorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+vlog -work work E:/TEST_LAST/Controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:00 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Controller.sv 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 21:29:00 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:26 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:29:26 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# ** Error: E:/TEST_LAST/RISCVCPU.sv(3): (vlog-2730) Undefined variable: 'IroD'.
+# ** Error: E:/TEST_LAST/RISCVCPU.sv(3): Identifier must be declared with a port mode: IroD.
+# End time: 21:29:46 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:26 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 21:30:26 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:01 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:31:01 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 21:31:06 on Jul 14,2020, Elapsed time: 0:09:17
+# Errors: 3, Warnings: 11
+# vsim work.testbench 
+# Start time: 21:31:06 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(44): [PCDPC] - Port size (1) does not match connection size (32) for port 's'. The port definition is at: E:/TEST_LAST/Mult2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/memMux File: E:/TEST_LAST/Mult2to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/Iord \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/IorD \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:05 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Controller.sv 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 21:33:05 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:07 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:33:07 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:11 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 21:33:11 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:13 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:33:13 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 21:33:22 on Jul 14,2020, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 11
+# vsim work.testbench 
+# Start time: 21:33:22 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(44): [PCDPC] - Port size (1) does not match connection size (32) for port 's'. The port definition is at: E:/TEST_LAST/Mult2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/memMux File: E:/TEST_LAST/Mult2to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:50 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:38:50 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 21:38:59 on Jul 14,2020, Elapsed time: 0:05:37
+# Errors: 0, Warnings: 11
+# vsim work.testbench 
+# Start time: 21:38:59 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (1) for port 'B'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:07:44 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# ** Error: (vlog-13069) E:/TEST_LAST/RISCVCPU.sv(4): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 22:07:44 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:07:54 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 22:07:54 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:07:59 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# ** Error: (vlog-13069) E:/TEST_LAST/Datapath.sv(5): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 22:07:59 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:08 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:08:08 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:12 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) E:/TEST_LAST/testbench.sv(11): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 22:08:12 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:28 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:08:28 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:08:36 on Jul 14,2020, Elapsed time: 0:29:37
+# Errors: 6, Warnings: 10
+# vsim work.testbench 
+# Start time: 22:08:36 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 30, found 27.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'ALUResultOut'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'A'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'B'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:17:29 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 22:17:29 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:17:32 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# ** Error (suppressible): E:/TEST_LAST/Datapath.sv(22): (vlog-2388) 'RS1' already declared in this scope (Datapath).
+# ** Error (suppressible): E:/TEST_LAST/Datapath.sv(22): (vlog-2388) 'RS2' already declared in this scope (Datapath).
+# End time: 22:17:32 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# F:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:17:50 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:17:50 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:17:55 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:17:55 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:18:00 on Jul 14,2020, Elapsed time: 0:09:24
+# Errors: 1, Warnings: 13
+# vsim work.testbench 
+# Start time: 22:18:00 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 32, found 29.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'B'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS1'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS2'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:50 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:23:50 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:23:56 on Jul 14,2020, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 13
+# vsim work.testbench 
+# Start time: 22:23:57 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 32, found 29.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'B'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS1'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS2'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:25:15 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:25:16 on Jul 14,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:25:21 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:25:21 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:25:26 on Jul 14,2020, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 13
+# vsim work.testbench 
+# Start time: 22:25:26 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 32, found 29.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'B'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS1'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS2'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:28:49 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:28:49 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:28:56 on Jul 14,2020, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 13
+# vsim work.testbench 
+# Start time: 22:28:56 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 32, found 29.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'B'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS1'.
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS2'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:42 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 22:30:42 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:30:48 on Jul 14,2020, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 13
+# vsim work.testbench 
+# Start time: 22:30:48 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 32, found 31.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3839) E:/TEST_LAST/RISCVCPU.sv(35): Variable '/testbench/riscv/B', driven via a port connection, is multiply driven. See E:/TEST_LAST/RISCVCPU.sv(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'RS2'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:22 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:35:22 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:27 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 22:35:27 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:30 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:35:30 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:35:35 on Jul 14,2020, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 12
+# vsim work.testbench 
+# Start time: 22:35:35 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3017) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Too few port connections. Expected 34, found 33.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3839) E:/TEST_LAST/RISCVCPU.sv(35): Variable '/testbench/riscv/B', driven via a port connection, is multiply driven. See E:/TEST_LAST/RISCVCPU.sv(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3722) E:/TEST_LAST/RISCVCPU.sv(35): [TFMPC] - Missing connection for port 'ALUBin'.
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(94): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/ALUAin \
+sim:/testbench/ALUBin \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:09 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:49:09 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:13 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 22:49:13 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/RISCVCPU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:20 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/RISCVCPU.sv 
+# -- Compiling module RISCVCPU
+# 
+# Top level modules:
+# 	RISCVCPU
+# End time: 22:49:20 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 22:49:25 on Jul 14,2020, Elapsed time: 0:13:50
+# Errors: 0, Warnings: 12
+# vsim work.testbench 
+# Start time: 22:49:25 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3839) E:/TEST_LAST/RISCVCPU.sv(35): Variable '/testbench/riscv/B', driven via a port connection, is multiply driven. See E:/TEST_LAST/RISCVCPU.sv(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(95): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/ALUAin \
+sim:/testbench/ALUBin \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/Datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:14 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 23:15:14 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:16 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 23:15:16 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 23:15:22 on Jul 14,2020, Elapsed time: 0:25:57
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 23:15:22 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3839) E:/TEST_LAST/RISCVCPU.sv(35): Variable '/testbench/riscv/B', driven via a port connection, is multiply driven. See E:/TEST_LAST/RISCVCPU.sv(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(95): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/ALUAin \
+sim:/testbench/ALUBin \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work E:/TEST_LAST/DataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:50:43 on Jul 14,2020
+# vlog -reportprogress 300 -work work E:/TEST_LAST/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 23:50:43 on Jul 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 23:50:49 on Jul 14,2020, Elapsed time: 0:35:27
+# Errors: 0, Warnings: 10
+# vsim work.testbench 
+# Start time: 23:50:49 on Jul 14,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RISCVCPU
+# Loading work.Datapath
+# Loading work.PCreg
+# Loading work.Mult2to1
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.ALUControl
+# Loading work.Mult4to1
+# Loading work.RISCVALU
+# Loading work.registerfile
+# Loading work.DataMemory
+# Loading work.Controller
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (32) does not match connection size (64) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/testbench.sv(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUCtl'. The port definition is at: E:/TEST_LAST/RISCVCPU.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv File: E:/TEST_LAST/RISCVCPU.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Datapath.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Datapath.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(35): [PCDPC] - Port size (64) does not match connection size (32) for port 'DataAdr'. The port definition is at: E:/TEST_LAST/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3839) E:/TEST_LAST/RISCVCPU.sv(35): Variable '/testbench/riscv/B', driven via a port connection, is multiply driven. See E:/TEST_LAST/RISCVCPU.sv(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP File: E:/TEST_LAST/Datapath.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/Datapath.sv(95): [PCDPC] - Port size (64) does not match connection size (1) for port 'd2'. The port definition is at: E:/TEST_LAST/Mult4to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVDP/ALUBinput File: E:/TEST_LAST/Mult4to1.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSource'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+# ** Warning: (vsim-3015) E:/TEST_LAST/RISCVCPU.sv(43): [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUSrcB'. The port definition is at: E:/TEST_LAST/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/riscv/RISCVC File: E:/TEST_LAST/Controller.sv
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/Zero \
+sim:/testbench/IorD \
+sim:/testbench/DataAdr \
+sim:/testbench/MemOut \
+sim:/testbench/PC \
+sim:/testbench/ALUOut \
+sim:/testbench/IR \
+sim:/testbench/MDR \
+sim:/testbench/ALUResultOut \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/RS1 \
+sim:/testbench/RS2 \
+sim:/testbench/ALUAin \
+sim:/testbench/ALUBin \
+sim:/testbench/stateNum \
+sim:/testbench/cycle \
+sim:/testbench/PCWrite \
+sim:/testbench/PCWriteCond \
+sim:/testbench/ALUCtl \
+sim:/testbench/tempE \
+sim:/testbench/PCWriteE \
+sim:/testbench/MemRead \
+sim:/testbench/MemWrite \
+sim:/testbench/MemtoReg \
+sim:/testbench/IRWrite \
+sim:/testbench/PCSource \
+sim:/testbench/ALUOp \
+sim:/testbench/ALUSrcB \
+sim:/testbench/ALUSrcA \
+sim:/testbench/RegWrite \
+sim:/testbench/RegDst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

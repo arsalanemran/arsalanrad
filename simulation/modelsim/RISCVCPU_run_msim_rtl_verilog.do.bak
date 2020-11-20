@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/RISCVCPU.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/RISCVALU.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/registerfile.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/Mult4to1.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/Mult2to1.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/flopr.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/flopenr.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/Datapath.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/DataMemory.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/Controller.sv}
+vlog -sv -work work +incdir+E:/Lessons/Fourth\ Semister/Computer\ Architecture/Exercises/Project/TempFiles {E:/Lessons/Fourth Semister/Computer Architecture/Exercises/Project/TempFiles/ALUControl.sv}
+

@@ -1,0 +1,44 @@
+// module RegFile(RA,RB,W,WE,WD,RDA,RDB,CLK);
+// input [4:0] RA, RB, W;
+// input [31:0] WD;
+// input WE, CLK;
+// output [31:0] RDA, RDB;
+// reg [31:0] RegFile [31:0];
+// reg [5:0] i;
+
+// always @(posedge CLK)
+//  if(WE) RegFile[W] <= WD;
+// assign RDA = RegFile[RA];
+// assign RDB = RegFile[RB];
+
+// initial begin
+// for (i = 0; i < 32; i = i + 1)
+//  RegFile[i] = 32'd0;
+// end
+// endmodule 
+
+module registerfile 
+(input logic [4:0] ra1, ra2, wa3,
+input logic [63:0] Writedata,
+input logic RegWrite,
+output logic [63:0] A, B,
+input logic clk);
+
+logic [63:0] rf[31:0];
+// three ported register file
+// read two ports combinationally
+// write third port on rising edge of clock
+// register 15 reads PC + 8 instead
+
+initial begin //load in data and instructions of program // in bayad kamel she hanuz
+ rf[0] <= 64'd0;
+ rf[1] <= 64'd32;
+ rf[8] <= 64'd8;
+end
+
+
+always_ff @(posedge clk)
+if (RegWrite) rf[wa3] <= Writedata;
+assign A = rf[ra1];
+assign B = rf[ra2];
+endmodule
